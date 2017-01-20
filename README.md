@@ -2,7 +2,7 @@
 This is a project to learn how to [georeferencing](https://docs.qgis.org/2.2/en/docs/training_manual/forestry/map_georeferencing.html) historic scanned maps with open sources tools to generate raster tiles for storytelling historical events and family histories in a neighborhood.
 
 ### Tools to be used:
-* [QGIS](www.qgis.org) | An open soure Geographic Information System
+* [QGIS](www.qgis.org) | An open source Geographic Information System
 * [qgis2web](https://github.com/tomchadwin/qgis2web) | A plugin to generate raster tiles using leaflet
 
 ### Maps to use:
