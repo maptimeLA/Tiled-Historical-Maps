@@ -1,6 +1,18 @@
 # Tiled-Historical-Maps
-A repository of historical maps of LA for use on web pages
+This is a project to learn how to [georeferencing](https://docs.qgis.org/2.2/en/docs/training_manual/forestry/map_georeferencing.html) historic scanned maps with open sources tools to generate raster tiles for storytelling historical events and family histories in a neighborhood.
 
+### Tools to be used:
+* [QGIS](www.qgis.org) | An open soure Geographic Information System
+* [qgis2web](https://github.com/tomchadwin/qgis2web) | A plugin to generate raster tiles using leaflet
+
+### Maps to use:
+* [Sanborn Maps](https://en.wikipedia.org/wiki/Sanborn_Maps)
+
+### Sources:
+{Place source here}
+The Sanborn maps of LA for personal / non-commercial uses on web pages
+
+## Background
 Old printed maps of Los Angeles cannot readily be used on modern web based applications. In many cases these maps are beautiful. In other cases they contain valuable information. This project allow those maps to be readily used on webpages.
 
 These could be used with other MaptimeLA projects such as the [LA Historic Restaurant map](https://github.com/maptimeLA/old-la-restaurants).
