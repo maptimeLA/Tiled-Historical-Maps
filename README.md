@@ -9,7 +9,7 @@ This is a project to learn how to [georeferencing](https://docs.qgis.org/2.2/en/
 * [Sanborn Maps](https://en.wikipedia.org/wiki/Sanborn_Maps)
 
 ### Sources:
-{Place source here}
+We are using the downtown Los Angeles 1894 scanned and downloaded from Proquest (Permissions to be obtained 
 The Sanborn maps of LA for personal / non-commercial uses on web pages
 
 ## Background
