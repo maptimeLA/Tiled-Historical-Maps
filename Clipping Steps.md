@@ -1,8 +1,9 @@
-### Clipping a georeferenced Sanborn map scan
+### Clipping a georeferenced scanned Sanborn map 
+
+Clipping is the QGIS term for removing the borders and other unneeded areas of a map. If you did this by hand you might call it trimming.
 
 First draft—have to run through this again and make sure all the steps are here
 Can some of these steps be combined? Seems tedious to create all these pieces, but creating multiple paths in one Clipping item didn't seem to work.
-Transparency
 
 1. Select the georeferenced map in QGIS
 2. Select the map in layers, and right click and select zoom to layer. (You'll need to see the whole map)
@@ -33,8 +34,11 @@ Transparency
 Each map will be different
 1. There usually is a very definite kink in near the center that needs to be followed. 
 2. Usually going down the middle of the street will work. There may be rough outlines of buildings across the street, but they are usually complete on the adjoining sheet.
+#### Notes
+Could clip before georeferencing, but for two reasons better to do afterwards. First is that many sheets have already been georeferenced by others (and it can be good to have the border information for other reasons). Second, it's easier to deal with a georeferenced map in QGIS.
+One good reason to clip before. The binding line gets morphed and is difficult to trim along.
+Another is that you could do with a simple crop if it's a simple trim.
 
-
-Based on http://www.qgistutorials.com/en/docs/raster_mosaicing_and_clipping.html
-and https://github.com/mtop/speciesgeocoder/wiki/Tutorial-for-creating-polygons-in-QGIS drawing freehand shapes. See Drawing polygons.png  to see the icons to click on.
-
+#### References
+1. http://www.qgistutorials.com/en/docs/raster_mosaicing_and_clipping.html
+2. https://github.com/mtop/speciesgeocoder/wiki/Tutorial-for-creating-polygons-in-QGIS drawing freehand shapes. See Drawing polygons.png  to see the icons to click on.
