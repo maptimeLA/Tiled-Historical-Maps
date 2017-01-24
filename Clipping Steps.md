@@ -35,7 +35,9 @@ Each map will be different
 1. There usually is a very definite kink in near the center that needs to be followed. 
 2. Usually going down the middle of the street will work. There may be rough outlines of buildings across the street, but they are usually complete on the adjoining sheet.
 #### Notes
-Could clip before georeferencing, but for two reasons better to do afterwards. First is that many sheets have already been georeferenced by others (and it can be good to have the border information for other reasons). Second, it's easier to deal with a georeferenced map in QGIS.
+Could clip before georeferencing, but for two reasons better to do afterwards. First is that many sheets have already been georeferenced by others (and it can be good to have the border information for other reasons). Second, it's easier to deal with a georeferenced map in QGIS. If you over clip, you have to georef again too.
+- Rotating in other than 90 degrees in macOS (Preview only does 90), use Photos (a free app). Use crop and can control rotate outside the box—easier to show than explain. Difficult to do precisely. Can't zoom and rotate at same time.
+Of course, many other apps and reportedly the command line _sips_ can do this also
 One good reason to clip before. The binding line gets morphed and is difficult to trim along.
 Another is that you could do with a simple crop if it's a simple trim.
 
