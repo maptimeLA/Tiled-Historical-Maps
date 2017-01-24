@@ -36,5 +36,6 @@ As far as I can tell nothing connects the map you start with, or the map you cre
 #### References
 1. [Georeferencer Plugin -QGIS](http://docs.qgis.org/2.8/en/docs/user_manual/plugins/plugins_georeferencer.html#available-transformation-algorithms). Can see icons and tutorial
 1. [QGIS Tutorial](http://www.qgistutorials.com/en/docs/georeferencing_basics.html "Georeferencing Topo Sheets and Scanned Maps")
+3. [Yet another QGIS Tutorial](https://docs.qgis.org/2.2/en/docs/training_manual/forestry/map_georeferencing.html "14.2. Lesson: Georeferencing a Map"). Part of larger tutorial. And the technique is appropriate when you're using a scanned map with coordinates which is not the case with most historical maps. But if you're doing a topo map, this is one to look at.
 2. [QGIS Advanced Tutorial](http://www.qgistutorials.com/en/docs/advanced_georeferencing.html "Georeferencing Aerial Imagery")
 1. [Numpty's Progress Tutorial](http://glaikit.org/2011/03/27/image-georeferencing-with-qgis/)
