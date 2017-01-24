@@ -1,9 +1,10 @@
 #### Georeferencing Steps and Notes
 As far as I can tell nothing connects the map you start with, or the map you create with the control points you create and (hopefully) save. 
-1.  ![OpenRaster]:
-2.  EPSG 3857 option, then OK?
-3.  Transformation Setting ![TransSettings](Gear Wheel)
-  - Transformation Type > Thin Plate Spline
+1. From menu bar, Raster > Georeferencer > Georeferencer… (Georeferencer twice duh). A new blank window will open with a icons at the top. This plugin is controlled by the icons. They are grouped by function. 
+1. First step is to select the scanned map you're going to georeference. Click ![OpenRaster] and select your map file. 
+2. Click Open and your image should appear.
+3.  Next step is to set some setting for the transformation. Click Transformation Setting ![TransSettings](Gear Wheel)
+  - Transformation Type > Thin Plate Spline [Numpty](http://glaikit.org/2011/03/27/image-georeferencing-with-qgis/) explains why this is a good choice for old scanned ("vernacular)" maps. (This worked for me, but look at other tutorials if the final image quality isn't good. Note that the image quality that is output is much better than what you see in the first window; at least on macOs.)
   - Target SRS > EPSG-3857
   - Output raster > name the georeferenced map that will be created
     - Click on the three dots to select the folder named .... Clipped scans.
@@ -30,7 +31,7 @@ As far as I can tell nothing connects the map you start with, or the map you cre
 
 
 - The georeferencing points created in QGIS don't seem to automatically saved. Useful to keep these for adjustments.
-- See street name changes at [Greg's site](https://secure-shore-68966.herokuapp.com/streets)
+- See some of the street name changes for LA  [here](https://secure-shore-68966.herokuapp.com/streets "Croatian Restaurants site")
 - Pay attention to Layers Order in QGIS if your map scan is not showing
 
 #### References
@@ -38,7 +39,7 @@ As far as I can tell nothing connects the map you start with, or the map you cre
 2. [QGIS Tutorial](http://www.qgistutorials.com/en/docs/georeferencing_basics.html "Georeferencing Topo Sheets and Scanned Maps"). Also uses coordinates read from the scan
 3. [Yet another QGIS Tutorial](https://docs.qgis.org/2.2/en/docs/training_manual/forestry/map_georeferencing.html "14.2. Lesson: Georeferencing a Map"). Part of larger tutorial. And the technique is appropriate when you're using a scanned map with coordinates which is not the case with most historical maps. But if you're doing a topo map, this is one to look at.
 2. [QGIS Advanced Tutorial](http://www.qgistutorials.com/en/docs/advanced_georeferencing.html "Georeferencing Aerial Imagery")
-1. [Numpty's Progress Tutorial](http://glaikit.org/2011/03/27/image-georeferencing-with-qgis/)
+1. [Numpty's Progress Tutorial](http://glaikit.org/2011/03/27/image-georeferencing-with-qgis/ "IMAGE GEOREFERENCING WITH QGIS"). Good reference because it uses the technique that you'll likely be using—clicking on a current map.
 
 ##### Icon references
 [OpenRaster]: http://docs.qgis.org/2.8/en/_images/mActionAddRasterLayer.png "Open Raster"
@@ -47,4 +48,5 @@ As far as I can tell nothing connects the map you start with, or the map you cre
 [AddPoint]: http://docs.qgis.org/2.8/en/_images/mActionAddGCPPoint.png "Add CG Point"
 [SavePoints]: http://docs.qgis.org/2.8/en/_images/mActionSaveGCPpointsAs.png "Save GCP Points As"
 [StartGeoref]: http://docs.qgis.org/2.8/en/_images/mActionStartGeoref.png "Start georeferencing"
-[For other icons](http://docs.qgis.org/2.8/en/docs/user_manual/plugins/plugins_georeferencer.html#available-transformation-algorithms)
+[For other icons](http://docs.qgis.org/2.8/en/docs/user_manual/plugins/plugins_georeferencer.html#available-transformation-algorithms
+)

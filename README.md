@@ -4,10 +4,11 @@ This is a project to learn how to [georeference](https://en.wikipedia.org/wiki/G
 The skills developed here can be used on any scanned map or even a contempory drawing.
 
 ### Tools to be used:
-* [QGIS](www.qgis.org) | An open source Geographic Information System
+* [Intro slideshow](https://maptimela.github.io/Tiled-Historical-Maps) to the workshop. [from this file](index.html)
+* [QGIS](www.qgis.org).  An open source Geographic Information System
   * [Georeferencing steps for Sanborn maps](Georeferencing.md)
   * [Clipping](Clipping Steps.md)
-* [qgis2web](https://github.com/tomchadwin/qgis2web) | A plugin to generate raster tiles using leaflet
+* [qgis2web](https://github.com/tomchadwin/qgis2web) . A plugin to generate raster tiles using leaflet
 
 ### Maps to use:
 * [Sanborn Maps](https://en.wikipedia.org/wiki/Sanborn_Maps)
