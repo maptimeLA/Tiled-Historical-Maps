@@ -1,6 +1,8 @@
 #### Georeferencing Steps and Notes
 As far as I can tell nothing connects the map you start with, or the map you create with the control points you create and (hopefully) save. 
+
 1. From menu bar, Raster > Georeferencer > Georeferencer… (Georeferencer twice duh). A new blank window will open with a icons at the top. This plugin is controlled by the icons. They are grouped by function. 
+
 1. First step is to select the scanned map you're going to georeference. Click ![OpenRaster] and select your map file. 
 2. Click Open and your image should appear.
 3.  Next step is to set some setting for the transformation. Click Transformation Setting ![TransSettings](Gear Wheel)
@@ -48,5 +50,6 @@ As far as I can tell nothing connects the map you start with, or the map you cre
 [AddPoint]: http://docs.qgis.org/2.8/en/_images/mActionAddGCPPoint.png "Add CG Point"
 [SavePoints]: http://docs.qgis.org/2.8/en/_images/mActionSaveGCPpointsAs.png "Save GCP Points As"
 [StartGeoref]: http://docs.qgis.org/2.8/en/_images/mActionStartGeoref.png "Start georeferencing"
-[For other icons](http://docs.qgis.org/2.8/en/docs/user_manual/plugins/plugins_georeferencer.html#available-transformation-algorithms
+
+- [For other icons](http://docs.qgis.org/2.8/en/docs/user_manual/plugins/plugins_georeferencer.html#available-transformation-algorithms
 )
