@@ -1,8 +1,8 @@
 #### Georeferencing Steps and Notes
 As far as I can tell nothing connects the map you start with, or the map you create with the control points you create and (hopefully) save. 
-1.  
+1.  ![OpenRaster]:
 2.  EPSG 3857 option, then OK?
-3.  Transformation Setting (Gear Wheel)
+3.  Transformation Setting ![TransSettings](Gear Wheel)
   - Transformation Type > Thin Plate Spline
   - Target SRS > EPSG-3857
   - Output raster > name the georeferenced map that will be created
@@ -13,17 +13,17 @@ As far as I can tell nothing connects the map you start with, or the map you cre
   - Click OK
 4. Try to get some idea where you want to add points. Look at map you're working on and the current map you'll use to set coordinates.
 - If it will help reading or setting the location zoom to area on both maps. You can toggle back and forth (Cmd-`) on macOS
-5. Select Add Point by clicking icon (just to right of gear icon). It may appear selected but unless you have crosshair icon you can't click. May need to reselect Add Point [ Is there a shortcut for this???]
+5. Select Add Point ![Alt Text][AddPoint] by clicking icon (just to right of gear icon). It may appear selected but unless you have crosshair icon you can't click. May need to reselect Add Point [ Is there a shortcut for this???]
 6. Click on the map where you want the control point to be
 7. Click on From map canvas in the window that pops up. That will take you to the base map
 8. Click on the corresponding location in the base map (you can zoom the map, not sure you can move around. If you need to, do; you'll just have to cancel the add point, move and then reselect add point)
 9. Click OK. A red dot will appear on both maps for that control point
 10. Repeat steps 5 through 10 for four or more control points. Generally near each corner and a few in the middle
-11. Select Save GP Points As icon
+11. Select Save GP Points ![SavePoints]
 12. Probably use same name to avoid confusion
 13. Select Georefence Point folder
 14. Save
-15. Click Start Georeferencing. Green triangle (second icon). Takes several seconds on my computer
+15. Click Start Georeferencing. ![StartGeoref] Takes several seconds on my computer
 16. Toggle to the base map and see that your new referenced scan is there
   - If not look for your new map in the Layers list and check that the SRS is correct
   - If still not showing check Layers order panel and make sure it's above the base map (it's usually at the bottom under your base map)
@@ -35,7 +35,16 @@ As far as I can tell nothing connects the map you start with, or the map you cre
 
 #### References
 1. [Georeferencer Plugin -QGIS](http://docs.qgis.org/2.8/en/docs/user_manual/plugins/plugins_georeferencer.html#available-transformation-algorithms). Can see icons and tutorial
-1. [QGIS Tutorial](http://www.qgistutorials.com/en/docs/georeferencing_basics.html "Georeferencing Topo Sheets and Scanned Maps")
+2. [QGIS Tutorial](http://www.qgistutorials.com/en/docs/georeferencing_basics.html "Georeferencing Topo Sheets and Scanned Maps"). Also uses coordinates read from the scan
 3. [Yet another QGIS Tutorial](https://docs.qgis.org/2.2/en/docs/training_manual/forestry/map_georeferencing.html "14.2. Lesson: Georeferencing a Map"). Part of larger tutorial. And the technique is appropriate when you're using a scanned map with coordinates which is not the case with most historical maps. But if you're doing a topo map, this is one to look at.
 2. [QGIS Advanced Tutorial](http://www.qgistutorials.com/en/docs/advanced_georeferencing.html "Georeferencing Aerial Imagery")
 1. [Numpty's Progress Tutorial](http://glaikit.org/2011/03/27/image-georeferencing-with-qgis/)
+
+##### Icon references
+[OpenRaster]: http://docs.qgis.org/2.8/en/_images/mActionAddRasterLayer.png "Open Raster"
+[TransSettings]: http://docs.qgis.org/2.8/en/_images/mActionTransformSettings.png "Transformation Settings"
+[DeletePoint]: http://docs.qgis.org/2.8/en/_images/mActionDeleteGCPPoint.png
+[AddPoint]: http://docs.qgis.org/2.8/en/_images/mActionAddGCPPoint.png "Add CG Point"
+[SavePoints]: http://docs.qgis.org/2.8/en/_images/mActionSaveGCPpointsAs.png "Save GCP Points As"
+[StartGeoref]: http://docs.qgis.org/2.8/en/_images/mActionStartGeoref.png "Start georeferencing"
+[For other icons](http://docs.qgis.org/2.8/en/docs/user_manual/plugins/plugins_georeferencer.html#available-transformation-algorithms)
