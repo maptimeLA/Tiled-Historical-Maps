@@ -26,4 +26,4 @@ The first series may be 1894 Sanborn maps. These hand drawn maps have detailed o
 
 Future maps may include 1888 Sanborn, 1921 Baist. Also many single page maps which can be done more easily. Or any map that you wish and even better if it contributes to the understanding of the culture and history of LA.
 
-An example of what can be done with overlaying historical maps for [Istanbul, Turkey](http://www.istanbulurbandatabase.com/)
+An example of what can be done with overlaying historical maps for [Istanbul, Turkey](http://www.istanbulurbandatabase.com/). This is one of hundreds of examples, just happened to pop up on a [blog](http://googlemapsmania.blogspot.com "Maps Mania") when I was working on this page.

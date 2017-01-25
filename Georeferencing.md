@@ -32,7 +32,7 @@ As far as I can tell nothing connects the map you start with, or the map you cre
   - If still not showing check Layers order panel and make sure it's above the base map (it's usually at the bottom under your base map)
 
 
-- The georeferencing points created in QGIS don't seem to automatically saved. Useful to keep these for adjustments.
+- The georeferencing points created in QGIS don't seem to automatically saved. May be useful to keep these for adjustments.
 - See some of the street name changes for LA  [here](https://secure-shore-68966.herokuapp.com/streets "Croatian Restaurants site")
 - Pay attention to Layers Order in QGIS if your map scan is not showing
 
