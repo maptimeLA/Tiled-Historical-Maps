@@ -1,0 +1,9 @@
+### CSUN will scan Sanborn maps for this project
+Scans are available, but all publically available ones for Los Angeles are black and white and some are not high enough resolution to read all the information
+Criteria
+-Since the period of interest is 1880 to 1930 concentrate on this period. Blais maps from 1920 are available so use Sanborn for earlier. Also information for early is more difficult to obtain. Nominally Sanborn are available for 1888 (first edition) and 1894 (three volumes). As other areas were added, new volumes were created with the date of publication identifying. For example, 1900 Volume Four adds new areas. But the first three volumes may never have been republished, just updated. What's confusing is that the volumes were updated by pasting in new information, and that should change the effective date, but hard to tell what the date of any given page is%mdash;depends on the person pasting in the information. And the catalogs of Sanborns online, don't seem to make it clear. **Find out the effective date of the CSUN collection**, i.e., what is the date of the latest paste up.
+- But for this project we'll concentrate on the 1894 edition since it's in the middle of the more difficult period to cover. 
+- Concentrate on downtown. Boyle Heights is of interest, but at a later period.
+- We'll establish a priority since we don't know how many can be scanned. 
+- First do the key map, it shows the approximate location of each sheet and has a "key" (legend) showing what various things mean on the individual sheets. Most of the sheets are scanned as two images (the left and right pages). The three volumes in black and white: 
+![Volume One](/1894-1900 Sanborn/Volume_One/1894-1990 Georeferenced/0a.KeyWestFromTrimmed.tif "Vol 1 west")
