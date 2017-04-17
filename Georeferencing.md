@@ -1,19 +1,20 @@
 #### Georeferencing Steps and Notes
 As far as I can tell nothing connects the map you start with, or the map you create with the control points you create and (hopefully) save. 
-
-1. From menu bar, Raster > Georeferencer > Georeferencer… (Georeferencer twice duh). A new blank window will open with a icons at the top. This plugin is controlled by the icons. They are grouped by function. 
+In application QGIS
+1. From menu bar, Raster > Georeferencer > Georeferencer… (Georeferencer twice duh). A new blank window will open with a icons at the top. This plugin is controlled by the icons. They are grouped by function. QGIS can't process a PDF. Convert PDFs to TIFFs first.
 
 1. First step is to select the scanned map you're going to georeference. Click ![OpenRaster] and select your map file. 
-2. Click Open and your image should appear.
-3.  Next step is to set some setting for the transformation. Click Transformation Setting ![TransSettings](Gear Wheel)
+2. Click Open (May get window asking for coordinate system—Select EPSG:3867 Pseudo Mercator WGS84) and your image should appear.
+3.  Next step is to set some setting for the transformation. Click Transformation Setting ![TransSettings](Gear Wheel) Sixth icon from left
   - Transformation Type > Thin Plate Spline [Numpty](http://glaikit.org/2011/03/27/image-georeferencing-with-qgis/) explains why this is a good choice for old scanned ("vernacular)" maps. (This worked for me, but look at other tutorials if the final image quality isn't good. Note that the image quality that is output is much better than what you see in the first window; at least on macOs.)
+  - Resampling Method > Cubic
   - Target SRS > EPSG-3857
   - Output raster > name the georeferenced map that will be created
     - Click on the three dots to select the folder named .... Clipped scans.
-    - Make sure .tif extension is there, you may have to add it
-  - Resampling Method > Cubic
+    - Make sure .tif extension is there, you may have to add it (defaults to .modified—.georef may be better)
   - Check "Load QGIS when done"
   - Click OK
+  [Transformation Settings](Transformation_Settings.png)
 4. Try to get some idea where you want to add points. Look at map you're working on and the current map you'll use to set coordinates.
 - If it will help reading or setting the location zoom to area on both maps. You can toggle back and forth (Cmd-`) on macOS
 5. Select Add Point ![Alt Text][AddPoint] by clicking icon (just to right of gear icon). It may appear selected but unless you have crosshair icon you can't click. May need to reselect Add Point [ Is there a shortcut for this???]
@@ -22,17 +23,15 @@ As far as I can tell nothing connects the map you start with, or the map you cre
 8. Click on the corresponding location in the base map (you can zoom the map, not sure you can move around. If you need to, do; you'll just have to cancel the add point, move and then reselect add point)
 9. Click OK. A red dot will appear on both maps for that control point
 10. Repeat steps 5 through 10 for four or more control points. Generally near each corner and a few in the middle
-11. Select Save GP Points ![SavePoints]
+11. Select Save GP Points ![SavePoints]. 5th icon from left
 12. Probably use same name to avoid confusion
 13. Select Georefence Point folder
 14. Save
-15. Click Start Georeferencing. ![StartGeoref] Takes several seconds on my computer
+15. Click Start Georeferencing. ![StartGeoref] 2nd icon from left. Takes several seconds on my computer
 16. Toggle to the base map and see that your new referenced scan is there
   - If not look for your new map in the Layers list and check that the SRS is correct
   - If still not showing check Layers order panel and make sure it's above the base map (it's usually at the bottom under your base map)
 
-
-- The georeferencing points created in QGIS don't seem to automatically saved. May be useful to keep these for adjustments.
 - See some of the street name changes for LA  [here](https://secure-shore-68966.herokuapp.com/streets "Croatian Restaurants site")
 - Pay attention to Layers Order in QGIS if your map scan is not showing
 

@@ -12,8 +12,14 @@ The Sanborn maps are colored to indicate certain features, but the available sca
 
 The Sanborn maps are assembled in books and _spread_ across two pages (verso and recto in the book world). The available scans scan the verso and recto separately. Since these are bound, distortion is frequent at the binding; and sometimes the lighting is not too even. The scans in this collection are numbered with the map numbers (which are shown on the key map) and _a_ and _b_ for verso and recto. The TIFs are georeferenced, but the JPGs are not (that's what what available at UCLA) in 2016.
 
-This 1894–1900 is in four volumes (bound books). Vol. 4 may have been issued later—1900?. The scans as downloaded did have a volume idenifier in the title, but they don't sort well, so they may be placed in folders by volume (at least for now—driving my QGIS crazy with all this reorganizing). NOT YET
+"1894" Volume Four is dated 1900 (in large type as well as the copyright date) and basically adds many areas to east and west of downtown. Also the address is changed from 115 Broadway, New York to 11 Broadway, New York. A bit of confusion results because some isolated areas that were included in the 1894 Volumes One, Two and Three that are now encompassed by Volume Four.
 
-(None of the Sanborn scans available from LAPL are georeferenced.)
+Fortunately their are only one set sheet numbers. Volume One has Sheets 1&ndash;39, Volume Two: ~51&ndash;~91, Volume Three: ~101&ndash;139 and Volume Four contains Sheets 140&ndash;~250. *Are the books different sizes; not consistent; and gaps in the number (reading from poor quality map, not a list).*
+
 
 [Sanborn Maps at Wikipedia](https://en.wikipedia.org/wiki/Sanborn_Maps)
+
+  <p>In sorting out the maps I realized what some sources label as 1888 Volume Two (text not digits were used, so following what's printed) is really an addendum to the 1888 edition that approximately doubled the number of sheets.  Sheets 1–40 from the 1888 were retained as is and retroactively made Volume 1. Other observations: 1) the "masthead" on the overview map is now <em>Sanborn-Perris Map Co.</em> while the 1888 version is <em>Sanborn Maps Publishing Co. Limited</em> (Ref below discusses 1899 change). 2) The 1888 overview map makes no mention of "Volumes," 3) the 1890 overview map is labeled "Volume 2", but it shows the sheet locations for both Volumes 1 and 2. There is no Volume 1. The address "117 Broadway, New York" is the same for both 1888 and 1890.
+    <%= link_to "Short history at University of Florida", "http://cms.uflib.ufl.edu/maps/collections/sanborn" %>. Does have one date messed up.</p>
+    <p>"1894" Volume Four is dated 1900 (in large type as well as the copyright date) and basically adds many areas to east and west of downtown. Also the address is changed from 115 Broadway, New York to 11 Broadway, New York. A bit of confusion results because some isolated areas that were included in the 1894 Volumes One, Two and Three that are now encompassed by Volume Four. </p>
+    <p>Fortunately their are only one set sheet numbers. Volume One has Sheets 1&ndash;39, Volume Two: ~51&ndash;~91, Volume Three: ~101&ndash;139 and Volume Four contains Sheets 140&ndash;~250. <em>Are the books different sizes; not consistent; and gaps in the number (reading from poor quality map, not a list).</em></p>
