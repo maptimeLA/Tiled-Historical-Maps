@@ -34,8 +34,7 @@ Possible file naming scheme *Los Angeles 1894 (1910) Vol 1, Sheet 22a* where the
 
 Almost all Volume One downtown maps are needed, but in a pinch *italicized* ones are less important
 
--
-1894 Parenthetic notes are (just for reference)
+-1894 Parenthetic notes are (just for reference)
 
 Volume One Key Map
 
