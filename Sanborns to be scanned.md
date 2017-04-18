@@ -1,8 +1,8 @@
-### CSUN will scan Sanborn maps for this project
+###  First Sanborn Maps to Be Scanned for This Project
 
-Scans are available, but all publically available ones for Los Angeles are black and white and some are not high enough resolution to read all the information
+At present all publically available ones for Los Angeles are black and white and some are not high enough resolution to read all the information. Some states have  downloaded full-color and georeferenced scans, e.g.,  [Charlottesville, Virginia] (http://gis.lib.virginia.edu/catalog/uva-SanbornCVL:1907map03)
 
-####Criteria and Background
+#### Criteria and Background
 
 -Since the period of interest is 1880 to 1930 concentrate on this period. Blais maps from 1920 are available so use Sanborn for earlier. Also information for early is more difficult to obtain. Nominally Sanborn are available for 1888 (first edition) and 1894 (three volumes). As other areas were added, new volumes were created with the date of publication identifying. For example, 1900 Volume Four adds new areas. But the first three volumes may never have been republished, just updated. What's confusing is that the volumes were updated by pasting in new information, and that should change the effective date, but hard to tell what the date of any given page is%mdash;depends on the person pasting in the information. And the catalogs of Sanborns online, don't seem to make it clear. **Find out the effective date of the CSUN collection**, i.e., what is the date of the latest paste up.
 
@@ -28,13 +28,11 @@ Some sheets cover non-contiguous areas or they aren't continuous [need a deisgnt
 
 #### Priority of 1894 sheet scanning (Sanborn identifies one **sheet** as the left and right pages)
 
-#####Volume One
+##### Volume One
 
 -Almost all Volume One downtown maps are needed, but in a pinch *italicized* ones are less important
 
-
-
-- (Just for reference)
+- Paranthetic notes are (just for reference)
 
 1894
 
@@ -146,13 +144,13 @@ Volume Two Key Map
 
 89  (covers two areas-the small one isn't needed)
 
-#####Volume Three
+##### Volume Three
 
 Volume Three Key Map
 
 116 (933 Court)
 
-
+------------ Footnotes
 
 fill = nothing of importance there but **fills** big gap in map
 
