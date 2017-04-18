@@ -24,17 +24,19 @@ Since the period of interest is 1880 to 1930 concentrate on this period. Baist m
 
 - Some sheets cover non-contiguous areas or they aren't continuous [need a designation for georef to track]
 
-#### Priority of 1894 sheet scanning (Sanborn identifies one **sheet** as the left and right pages)
+#### List of needed Sanborn 1894 sheet  to be scanned 
 
-If scanned left and right, usually use 'a' and 'b' to designate
+-Sanborn identifies one **sheet** as the left and right pages
 
-Possible file naming scheme *Los Angeles 1894 (1910) Vol 1, Sheet 22a* where the second date in parentheis is the update date—leave out if unknown. Volume Four should be *Los Angeles 1900 (1910) Vol 4, Sheet 212a*, i.e., using the original publication date as the first date (CSUN lists them this way)
+-Possible file naming scheme *Los Angeles 1894 (1910) Vol 1, Sheet 22a* where the second date in parentheis is the update date—leave out if unknown. Volume Four should be *Los Angeles 1900 (1910) Vol 4, Sheet 212a*, i.e., using the original publication date as the first date (CSUN lists them this way)
+
+-If scanned left and right, usually use 'a' and 'b' to designate
+
+-Almost all Volume One downtown maps are needed, but in a pinch *italicized* ones are less important
+
+-Parenthetic notes are (just for reference)
 
 ##### Volume One (Sheets 1 to 40)
-
-Almost all Volume One downtown maps are needed, but in a pinch *italicized* ones are less important
-
--1894 Parenthetic notes are (just for reference)
 
 Volume One Key Map
 
@@ -94,7 +96,7 @@ Volume One Key Map
 
 *30*
 
-#####Volume Two (Sheets ~51 to ~91)
+##### Volume Two (Sheets ~51 to ~91)
 
 Volume Two Key Map
 
