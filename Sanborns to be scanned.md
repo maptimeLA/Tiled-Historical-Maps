@@ -4,7 +4,7 @@ At present all publically available ones for Los Angeles are black and white and
 
 #### Criteria and Background
 
-Since the period of interest is 1880 to 1930 concentrate on this period. Baist maps from 1920 are available so use Sanborn for earlier. Also information for early is more difficult to obtain. Nominally Sanborn are available for 1888 (first edition) and 1894 (three volumes). As other areas were added, new volumes were created with the date of publication identifying. For example, 1900 Volume Four adds new areas. But the first three volumes may never have been republished, just updated. What's confusing is that the volumes were updated by pasting in new information, and that should change the effective date, but hard to tell what the date of any given page is&mdash;depends on the person pasting in the information. And the catalogs of Sanborns online, don't seem to make it clear. **Find out the effective date of the CSUN collection**, i.e., what is the date of the latest paste up.
+Since the period of interest is 1880 to 1930 concentrate on this period. Baist maps from 1921 are available so use Sanborn for earlier. Also information for early is more difficult to obtain. Nominally Sanborn are available for 1888 (first edition) and 1894 (three volumes). As other areas were added, new volumes were created with the date of publication identifying. For example, 1900 Volume Four adds new areas. But the first three volumes may never have been republished, just updated. What's confusing is that the volumes were updated by pasting in new information, and that should change the effective date, but hard to tell what the date of any given page is&mdash;depends on the person pasting in the information. And the catalogs of Sanborns online, don't seem to make it clear. **Find out the effective date of the CSUN collection**, i.e., what is the date of the latest paste up.
 
 - But for this project we'll concentrate on the 1894 edition since it's in the middle of the more difficult period to cover. 
 
@@ -16,7 +16,7 @@ Since the period of interest is 1880 to 1930 concentrate on this period. Baist m
  
  - Will want to pull the key out as a separate image, particularly since they may get trimmed off when the three key maps are merged. Having all three key maps will show almost all the streets, but none of the building information that is one the individual sheets
 
-- **Resolution**. Virginia Sanborns are 3000 x 3000 pixels per sheet as rotated—unrotated might have been 2500 x 2100 (based on one I rotated back to square). Readable but has jaggies. Can imagine that double the resolutions would be cleaner. The problem is that the image will be rotated which increases the jaggies. **5000 pixels on a side would be good**. Can downsize later, but can't upsize later.
+- **Resolution**. Baist maps from Rumsey are 12491 × 8364 or similar. And they are beautiful and clear. Since this is a lot of work, it's worth doing it well. Virginia Sanborns are 3000 x 3000 pixels per sheet as rotated—unrotated might have been 2500 x 2100 (based on one I rotated back to square). Readable but has jaggies. Can imagine that double the resolutions would be cleaner. The problem is that the image will be rotated which increases the jaggies. **5000 pixels on a side would be good**. Can downsize later, but can't upsize later.
 
 - Note date of the page. Nice if can see paste ups
 
@@ -24,7 +24,7 @@ Since the period of interest is 1880 to 1930 concentrate on this period. Baist m
 
 - Some sheets cover non-contiguous areas or they aren't continuous [need a designation for georef to track]
 
-#### List of needed Sanborn 1894 sheet  to be scanned 
+#### List of Sanborn 1894 sheet  to be scanned 
 
 -Sanborn identifies one **sheet** as the left and right pages
 
@@ -34,9 +34,9 @@ Since the period of interest is 1880 to 1930 concentrate on this period. Baist m
 
 -Almost all Volume One downtown maps are needed, but in a pinch *italicized* ones are less important
 
--Parenthetic notes are (just for reference)
+-Would be great to OCR Street Index
 
-##### Volume One (Sheets 1 to 40)
+##### Volume One (Sheets 1 to 40) (41 per CSUN)
 
 Volume One Key Map
 
@@ -76,9 +76,9 @@ Volume One Key Map
 
 18
 
-19 (same as 22)
+19
 
-22 (no resto, but fills in corner and shows interesting railroad, river )
+22
 
 *23*
 
@@ -96,57 +96,57 @@ Volume One Key Map
 
 *30*
 
-##### Volume Two (Sheets ~51 to ~91)
+##### Volume Two (85 Sheets 51 to 91) 
 
 Volume Two Key Map
 
-56 (525 W 7th)
+56
 
-57( 419 S Grand)
+57
 
-62 (1626 Santee)
+62
 
-63 fill
+63
 
-64 (1018 S Hill)
+64
 
-65 between 56 and 64
+65
 
 66
 
 67
 
-71 fill
+71
 
-72 fill
+72
 
-73 fill
+73
 
 74
 
 75
 
-79 (1104 San Julian )
+79
 
-80 (520 1/2 E 9th)
+80
 
-81 (638 Crocker )
+81
 
-83 (527 Gladys, 536 Towne)
+83 
 
-84 (splits awkwardly across the two pages)
+84
 
 *85*
 
-86 (Pennsylvania)
+86
 
 87  (covers two areas-the small one isn't needed)
 
-88 fill
+88
 
 89  (covers two areas-the small one isn't needed)
 
-##### Volume Three (Sheets : ~101 to 139)
+##### Volume Three (Sheets : 101–141) 
 
 Volume Three Key Map
 
